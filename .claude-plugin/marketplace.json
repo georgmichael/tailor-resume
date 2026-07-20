@@ -1,0 +1,15 @@
+{
+  "name": "georgmichael",
+  "description": "Michael George's Claude Code plugins for job-search and career workflows.",
+  "owner": {
+    "name": "Michael George",
+    "url": "https://github.com/georgmichael"
+  },
+  "plugins": [
+    {
+      "name": "tailor-resume",
+      "source": "./",
+      "description": "Tailor a .docx resume to a job description (formatting-safe) and generate a matching one-page cover letter."
+    }
+  ]
+}

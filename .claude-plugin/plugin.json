@@ -1,0 +1,13 @@
+{
+  "name": "tailor-resume",
+  "description": "Tailor a .docx resume to a job description (formatting-safe) and generate a matching one-page cover letter.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Michael George",
+    "url": "https://github.com/georgmichael"
+  },
+  "homepage": "https://github.com/georgmichael/tailor-resume",
+  "repository": "https://github.com/georgmichael/tailor-resume",
+  "license": "MIT",
+  "keywords": ["resume", "cover-letter", "job-search", "docx", "ats", "career"]
+}

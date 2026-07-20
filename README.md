@@ -8,11 +8,20 @@ Claude does the language and judgment (and asks you for missing facts only when 
 bullet needs them); the bundled Python scripts do the formatting-safe mechanics.
 
 ## Install
+
+### Option A — Plugin (recommended)
+In Claude Code, add this repo as a marketplace and install the plugin:
+```
+/plugin marketplace add georgmichael/tailor-resume
+/plugin install tailor-resume@georgmichael
+```
+
+### Option B — Manual skill
 Copy this `tailor-resume/` folder into a Claude Code skills directory:
 - Personal (all your projects): `~/.claude/skills/tailor-resume/`
 - Project (shared with a repo): `<repo>/.claude/skills/tailor-resume/`
 
-That's it — Claude runs the one-time `setup.sh` (creates a local venv, installs
+Either way, Claude runs the one-time `setup.sh` (creates a local venv, installs
 `python-docx`) on first use. Only requirement: `python3`.
 
 ## Use
