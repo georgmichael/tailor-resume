@@ -26,7 +26,7 @@ Open Claude Code, then type these two lines one at a time (press Enter after eac
 /plugin marketplace add georgmichael/tailor-resume
 ```
 ```
-/plugin install tailor-resume@georgmichael
+/plugin install tailor-resume@michaelskills
 ```
 
 The first line tells Claude where to find the tool. The second line installs it. You only do this once.
@@ -87,8 +87,8 @@ The very first time you use it, Claude sets up a small helper environment automa
 
 ## Update or remove it later
 
-- **Update to the newest version:** type `/plugin update tailor-resume@georgmichael` in Claude Code.
-- **Remove it:** type `/plugin uninstall tailor-resume@georgmichael`.
+- **Update to the newest version:** type `/plugin update tailor-resume@michaelskills` in Claude Code.
+- **Remove it:** type `/plugin uninstall tailor-resume@michaelskills`.
 
 ---
 
